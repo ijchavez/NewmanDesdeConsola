@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Presentacion" tests="16" time="5.891">
+  <testsuite name="Team Resource" id="763d54f1-b627-48aa-a345-fdeee4f8d1b8" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="1.192">
+    <testcase name="Status code is 200" time="1.192" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="1.192" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="1.192" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="1.192" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="1.192" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="1.192" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Team Resource" id="aa5c721d-6a6e-4279-a43a-6b217139162b" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.286">
+    <testcase name="Status code is 200" time="0.286" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.286" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.286" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.286" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.286" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.286" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Team Resource" id="84191da2-55bc-4b5d-940e-5b840ac66250" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.294">
+    <testcase name="Status code is 200" time="0.294" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.294" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.294" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.294" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.294" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.294" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Competition / Standings" id="4a693980-dee5-4c2d-b8de-c9d1e9b462b6" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.278">
+    <testcase name="Status code is 200" time="0.278" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.278" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.278" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.278" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.278" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.278" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Competition / Standings AWAY" id="a6616c61-0f53-4e54-a917-2b8abe9ce8d2" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.278">
+    <testcase name="Status code is 200" time="0.278" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.278" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.278" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.278" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.278" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.278" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player Resource" id="a842c227-dc3b-45df-9cdb-bea9eb4370dc" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.326">
+    <testcase name="Status code is 200" time="0.326" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.326" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.326" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.326" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.326" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.326" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player Resource" id="87a69fdc-e4be-474b-8836-52fe5393d3de" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.295">
+    <testcase name="Status code is 200" time="0.295" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.295" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.295" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.295" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.295" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.295" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player Resource" id="18770f8d-7b0e-4386-b019-019dfb989aa4" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.308">
+    <testcase name="Status code is 200" time="0.308" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.308" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.308" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.308" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.308" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.308" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player Resource" id="25217408-266f-4290-b5e1-1a99d5e4b166" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.288">
+    <testcase name="Status code is 200" time="0.288" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.288" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.288" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.288" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.288" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.288" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player Resource" id="9c7157ad-e69d-43a3-88f9-e922672cdd63" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.283">
+    <testcase name="Status code is 200" time="0.283" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.283" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.283" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.283" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.283" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.283" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player / Matches Subesource" id="ab691a31-3b46-42a4-8e45-a4427ec70077" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="1" errors="0" time="0.505">
+    <testcase name="Status code is 200" time="0.505" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.505" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.505" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.505" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.505" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Player / Matches Subesource.]]>
+        <![CDATA[Test description: X-Requests-Available > 0.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:5:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.505" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Player / Matches Subesource" id="e6aa7175-6f14-4fd6-9df5-17bb313ced47" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="3" errors="0" time="0.267">
+    <testcase name="Status code is 200" time="0.267" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Player / Matches Subesource.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type is present" time="0.267" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.267" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.267" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Player / Matches Subesource.]]>
+        <![CDATA[Test description: API-Version header set.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:4:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-Requests-Available > 0" time="0.267" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Player / Matches Subesource.]]>
+        <![CDATA[Test description: X-Requests-Available > 0.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:5:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.267" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Competition Resource" id="520277b1-6db0-4628-8148-ebe035e17490" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="3" errors="0" time="0.275">
+    <testcase name="Status code is 200" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition Resource.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type is present" time="0.275" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.275" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition Resource.]]>
+        <![CDATA[Test description: API-Version header set.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:4:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-Requests-Available > 0" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition Resource.]]>
+        <![CDATA[Test description: X-Requests-Available > 0.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:5:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.275" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Area Resource" id="f4cacfd6-0953-4254-9c84-2e4867e9a507" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="2" errors="0" time="0.283">
+    <testcase name="Status code is 200" time="0.283" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.283" classname="Presentacion"/>
+    <testcase name="Client is authenticated" time="0.283" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Area Resource.]]>
+        <![CDATA[Test description: Client is authenticated.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:3:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="API-Version header set" time="0.283" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.283" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Area Resource.]]>
+        <![CDATA[Test description: X-Requests-Available > 0.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:5:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.283" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Competition List Resource" id="a02416a1-857a-4254-a5e0-61c5b5e55f1b" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="0" errors="0" time="0.458">
+    <testcase name="Status code is 200" time="0.458" classname="Presentacion"/>
+    <testcase name="Content-Type is present" time="0.458" classname="Presentacion"/>
+    <testcase name="Client is not authenticated" time="0.458" classname="Presentacion"/>
+    <testcase name="API-Version header set" time="0.458" classname="Presentacion"/>
+    <testcase name="X-Requests-Available > 0" time="0.458" classname="Presentacion"/>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.458" classname="Presentacion"/>
+  </testsuite>
+  <testsuite name="Competition List Resource" id="cddeddc5-6bfa-48a6-91cf-a950de2ab653" timestamp="2020-11-02T20:33:02.846Z" tests="6" failures="4" errors="0" time="0.275">
+    <testcase name="Status code is 200" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition List Resource.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type is present" time="0.275" classname="Presentacion"/>
+    <testcase name="Client is not authenticated" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition List Resource.]]>
+        <![CDATA[Test description: Client is not authenticated.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:3:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="API-Version header set" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition List Resource.]]>
+        <![CDATA[Test description: API-Version header set.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:4:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-Requests-Available > 0" time="0.275" classname="Presentacion">
+      <failure type="AssertionFailure" message="expected false to be truthy">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cca5d7fb-7090-4077-b2b3-d7da1edcd494.]]>
+        <![CDATA[Collection name: Presentacion.]]>
+        <![CDATA[Request name: Competition List Resource.]]>
+        <![CDATA[Test description: X-Requests-Available > 0.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:5:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="X-RequestCounter-Reset > 0" time="0.275" classname="Presentacion"/>
+  </testsuite>
+</testsuites>

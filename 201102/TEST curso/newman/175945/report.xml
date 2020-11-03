@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST curso POSTMAN" tests="20" time="12.178">
+  <testsuite name="TEST / POST mediante JSON con tests" id="0e564ea9-472d-4868-a363-7b97dd10d7e7" timestamp="2020-11-02T20:59:31.231Z" tests="5" failures="2" errors="0" time="0.814">
+    <testcase name="Resultado del JSON" time="0.814" classname="TestCursoPostman"/>
+    <testcase name="Response time is less than 600" time="0.814" classname="TestCursoPostman">
+      <failure type="AssertionFailure" message="expected 814 to be below 600">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ad95edd0-d5b9-474a-a6c0-8b1ab977cf58.]]>
+        <![CDATA[Collection name: TEST curso POSTMAN.]]>
+        <![CDATA[Request name: TEST / POST mediante JSON con tests.]]>
+        <![CDATA[Test description: Response time is less than 600.]]>
+        <![CDATA[Error message: expected 814 to be below 600.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 814 to be below 600
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.814" classname="TestCursoPostman"/>
+    <testcase name="veo las longitudes" time="0.814" classname="TestCursoPostman">
+      <failure type="AssertionFailure" message="expected 'Gerardo' to have a length of 6 but got 7">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ad95edd0-d5b9-474a-a6c0-8b1ab977cf58.]]>
+        <![CDATA[Collection name: TEST curso POSTMAN.]]>
+        <![CDATA[Request name: TEST / POST mediante JSON con tests.]]>
+        <![CDATA[Test description: veo las longitudes.]]>
+        <![CDATA[Error message: expected 'Gerardo' to have a length of 6 but got 7.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Gerardo' to have a length of 6 but got 7
+   at Object.eval sandbox-script.js:5:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="TEST / POST mediante JSON Busca ARRAY y string" id="a70d0287-8b84-454b-94fe-135bcc276708" timestamp="2020-11-02T20:59:31.231Z" tests="2" failures="0" errors="0" time="0.201">
+    <testcase name="array existe" time="0.201" classname="TestCursoPostman"/>
+    <testcase name="Encuentra un string &quot;id&quot;:40,&quot;Cantidad&quot;:1" time="0.201" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Respuesta en Delay con test de 200ms" id="66fbea81-30f7-4a86-81cc-1b4b46b1c728" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="1" errors="0" time="2.188">
+    <testcase name="Response time is less than 200ms" time="2.188" classname="TestCursoPostman">
+      <failure type="AssertionFailure" message="expected 2188 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ad95edd0-d5b9-474a-a6c0-8b1ab977cf58.]]>
+        <![CDATA[Collection name: TEST curso POSTMAN.]]>
+        <![CDATA[Request name: TEST / Respuesta en Delay con test de 200ms.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 2188 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2188 to be below 200
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="TEST / GET buscar strings exacto" id="7a8789fd-a951-43d4-805b-feee2812b5c6" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="2.188">
+    <testcase name="encuentra el string exacto {&quot;delay&quot;:&quot;2&quot;}" time="2.188" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / GET buscar strings dentro" id="67ddcc53-e112-4779-8b0a-482a5d1a3218" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="2.187">
+    <testcase name="Encuentra el string delay" time="2.187" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Content type presente" id="f7e5caae-819f-40de-83a7-3c28422da42f" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="1.189">
+    <testcase name="buscar que este presente en cabecera ETag" time="1.189" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Status dentro de un rango" id="cd140849-795b-4ac2-b598-64f37b19aa58" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.186">
+    <testcase name="Status dentro del rango" time="0.186" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test me aseguro que tenga propiedad" id="0955d227-1c08-4b16-9b4f-8f8e3e7cb643" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.197">
+    <testcase name="tiene la propiedad args" time="0.197" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test me aseguro de recibir" id="36244045-be67-428b-92e4-102bb698c707" timestamp="2020-11-02T20:59:31.231Z" tests="2" failures="0" errors="0" time="0.188">
+    <testcase name="Me aseguro de recibir string" time="0.188" classname="TestCursoPostman"/>
+    <testcase name="Me aseguro de recibir numero" time="0.188" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test include" id="e9924bcb-c104-4065-9adb-b1f8bc272d4d" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.187">
+    <testcase name="contiene la cadena rar" time="0.187" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test booleano" id="a6b66d3b-4b26-4d95-9fb7-1bb76e316e5c" timestamp="2020-11-02T20:59:31.231Z" tests="2" failures="1" errors="0" time="0.188">
+    <testcase name="valido booleano" time="0.188" classname="TestCursoPostman">
+      <failure type="AssertionFailure" message="expected false to be true">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ad95edd0-d5b9-474a-a6c0-8b1ab977cf58.]]>
+        <![CDATA[Collection name: TEST curso POSTMAN.]]>
+        <![CDATA[Request name: TEST / Test booleano.]]>
+        <![CDATA[Test description: valido booleano.]]>
+        <![CDATA[Error message: expected false to be true.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be true
+   at Object.eval sandbox-script.js:2:11).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="TEST / Test que incluya " id="e11bd914-1776-4605-ae32-742d2d27c7ab" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.188">
+    <testcase name="valido que incluya" time="0.188" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test que compruebe vacio" id="ee214974-385b-4ab0-bc1b-399af9a1f569" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.188">
+    <testcase name="valido que este o no vacio un campo " time="0.188" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test que longitudes" id="bf6392d5-acaf-49c3-86bd-82ce76172c53" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.184">
+    <testcase name="veo las longitudes" time="0.184" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test que contenga un valor" id="5f506c84-f37b-4594-8495-da3444b5aaef" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.187">
+    <testcase name="que matchee una cadena que empieza por /^Ge/ o /rard/" time="0.187" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / Test que comprenda un rango" id="519859f9-350d-4ca8-bb4f-17e8069651bc" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.182">
+    <testcase name="que comprenda el rango entre 30 con una dispersion de +/- 5" time="0.182" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / XML" id="0a4cd02d-6160-44f2-80ac-eca1c6a35e74" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.418">
+    <testcase name="Your test name" time="0.418" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / TXT" id="1b5bdfb5-c06c-427e-a7da-6e59ec584876" timestamp="2020-11-02T20:59:31.231Z" tests="1" failures="0" errors="0" time="0.225">
+    <testcase name="encontrar en un txt la cadena deny" time="0.225" classname="TestCursoPostman"/>
+  </testsuite>
+  <testsuite name="TEST / POST con variables de entorno/global" id="38d2fb5f-2f41-42d5-a63d-c4f503fa8038" timestamp="2020-11-02T20:59:31.231Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="TEST / Prerequestes Script con variable aleatoria" id="fdf9cc3c-eadb-4942-ad72-f3bae29e786e" timestamp="2020-11-02T20:59:31.231Z" tests="2" failures="0" errors="0" time="0.234">
+    <testcase name="comparar edad con valores random" time="0.234" classname="TestCursoPostman"/>
+    <testcase name="campo password siempre de 5 caracteres" time="0.234" classname="TestCursoPostman"/>
+  </testsuite>
+</testsuites>

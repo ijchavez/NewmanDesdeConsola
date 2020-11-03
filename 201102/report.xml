@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NEWMAN" tests="4" time="1.753">
+  <testsuite name="Peticion1" id="83a1405a-be31-4b67-9a0c-fcb668b695b7" timestamp="2020-11-02T15:57:23.506Z" tests="3" failures="0" errors="0" time="1.160">
+    <testcase name="Status code is 200" time="1.160" classname="Newman"/>
+    <testcase name="Your test name" time="1.160" classname="Newman"/>
+    <testcase name="Content-Length is present" time="1.160" classname="Newman"/>
+  </testsuite>
+  <testsuite name="Peticion2" id="85721026-7732-41fb-a517-8df95e9f51ac" timestamp="2020-11-02T15:57:23.506Z" tests="1" failures="0" errors="0" time="0.205">
+    <testcase name="Response time is less than 1200ms" time="0.205" classname="Newman"/>
+  </testsuite>
+  <testsuite name="Peticion3" id="85aa7a6d-7fae-4fda-8389-3f11e76128f3" timestamp="2020-11-02T15:57:23.506Z" tests="1" failures="0" errors="0" time="0.196">
+    <testcase name="Status code is 200" time="0.196" classname="Newman"/>
+  </testsuite>
+  <testsuite name="Peticion4" id="23b9d31e-e8b3-476c-9ea0-e2e140df61b6" timestamp="2020-11-02T15:57:23.506Z" tests="2" failures="0" errors="0" time="0.192">
+    <testcase name="Body is correct" time="0.192" classname="Newman"/>
+    <testcase name="Response time is less than 200" time="0.192" classname="Newman"/>
+  </testsuite>
+</testsuites>

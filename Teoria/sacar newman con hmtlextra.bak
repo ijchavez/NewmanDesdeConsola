@@ -1,0 +1,5 @@
+sacar newman con html poner al final --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
+
+newman run "https://api.getpostman.com/collections/ea0ff8e3-3c31-436b-a9be-7302424f1853?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --environment "https://api.getpostman.com/environments/d5afe053-af3a-47a9-8ae3-0bc86d160885?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --disable-unicode --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
+
+newman run "https://api.getpostman.com/collections/ad95edd0-d5b9-474a-a6c0-8b1ab977cf58?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --disable-unicode --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
