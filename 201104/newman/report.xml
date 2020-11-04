@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OPEN API Copy" tests="33" time="22.431">
+  <testsuite name="v1 / customers / {customer Id} / Get customer by Id" id="c83fa900-a637-4d5c-8e2f-590a6add4790" timestamp="2020-11-04T14:17:59.681Z" tests="4" failures="0" errors="0" time="0.648">
+    <testcase name="Response time en menor a 1800" time="0.363" classname="OpenApiCopy"/>
+    <testcase name="encuentra el string 1031 Lima Av" time="0.363" classname="OpenApiCopy"/>
+    <testcase name="buscar que este presente en cabecera ETag" time="0.363" classname="OpenApiCopy"/>
+    <testcase name="Status dentro del rango" time="0.363" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / customers / {customer Id} / Update Customer" id="81855179-18c6-4dc4-b5b8-e65f5644f79a" timestamp="2020-11-04T14:17:59.681Z" tests="3" failures="0" errors="0" time="0.399">
+    <testcase name="Response time is less than 1500" time="0.391" classname="OpenApiCopy"/>
+    <testcase name="buscar que este presente en cabecera ETag" time="0.391" classname="OpenApiCopy"/>
+    <testcase name="Status dentro del rango" time="0.391" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / customers / {customer Id} / Delete Customer by Id" id="34712a31-16d0-453c-bab9-60048a9440e4" timestamp="2020-11-04T14:17:59.681Z" tests="3" failures="0" errors="0" time="0.454">
+    <testcase name="Response time is less than 1400" time="0.375" classname="OpenApiCopy"/>
+    <testcase name="buscar que esten presentes las siguientes cabeceras: ETag, Date, Server, X-RateLimit-Remaining" time="0.375" classname="OpenApiCopy"/>
+    <testcase name="Status dentro del rango" time="0.375" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / customers / {customer Id} / Place Order" id="01c04cb6-0405-4a26-a5c9-cdf618e2e8bc" timestamp="2020-11-04T14:17:59.681Z" tests="4" failures="0" errors="0" time="0.364">
+    <testcase name="Response time is less than 1000" time="0.373" classname="OpenApiCopy"/>
+    <testcase name="Status code name has string" time="0.373" classname="OpenApiCopy"/>
+    <testcase name="buscar que este presente en cabecera ETag" time="0.373" classname="OpenApiCopy"/>
+    <testcase name="Status dentro del rango" time="0.373" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / customers / List Customers" id="8399ff71-7c3d-47f9-9d18-d6f23cede7fd" timestamp="2020-11-04T14:17:59.681Z" tests="4" failures="0" errors="0" time="0.390">
+    <testcase name="Response time is less than 1000" time="0.387" classname="OpenApiCopy"/>
+    <testcase name="encuentra el string &quot;totalPages&quot;: 34189903" time="0.387" classname="OpenApiCopy"/>
+    <testcase name="buscar que este presente en cabecera Vary" time="0.387" classname="OpenApiCopy"/>
+    <testcase name="Status dentro del rango" time="0.387" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / customers / New Customer" id="614d920c-cfb5-4fa7-83cb-f19a213ea444" timestamp="2020-11-04T14:17:59.681Z" tests="3" failures="2" errors="0" time="3.177">
+    <testcase name="Response time is less than 1200" time="2.255" classname="OpenApiCopy">
+      <failure type="AssertionFailure" message="expected 6916 to be below 1200">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: ce53a6d5-ad5c-4188-bd1e-ebbf3ae0016f.]]>
+        <![CDATA[Collection name: OPEN API Copy.]]>
+        <![CDATA[Request name: v1 / customers / New Customer.]]>
+        <![CDATA[Test description: Response time is less than 1200.]]>
+        <![CDATA[Error message: expected 6916 to be below 1200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 6916 to be below 1200
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="buscar que este presente en cabecera Vary y Server" time="2.255" classname="OpenApiCopy"/>
+    <testcase name="Status dentro del rango" time="2.255" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / beers / {beer Id} / Get Beer by Id" id="3c71907d-6712-4908-a36a-1f4015f555c9" timestamp="2020-11-04T14:17:59.681Z" tests="5" failures="0" errors="0" time="0.506">
+    <testcase name="Respuesta OK" time="0.556" classname="OpenApiCopy"/>
+    <testcase name="Tiempo OK" time="0.556" classname="OpenApiCopy"/>
+    <testcase name="buscar que este presente en cabecera ETag" time="0.556" classname="OpenApiCopy"/>
+    <testcase name="encuentra el string &quot;673e64a1-b059-5a31-4ad9-e203f8133b83&quot;" time="0.556" classname="OpenApiCopy"/>
+    <testcase name="encuentra el string &quot;Carlsberg&quot;" time="0.556" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / beers / {beer Id} / Update Beer by Id" id="a77854c3-b3f4-4d97-bed8-a3701e21ba68" timestamp="2020-11-04T14:17:59.681Z" tests="0" failures="0" errors="0" time="0.388"/>
+  <testsuite name="v1 / beers / {beer Id} / Delete Beer by Id" id="1350cdac-5bd1-4767-b3d9-5ea92df40033" timestamp="2020-11-04T14:17:59.681Z" tests="1" failures="0" errors="0" time="0.376">
+    <testcase name="Status code is 200" time="0.403" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / beers / List Beers" id="1ed7dc68-4782-46d9-9c1d-2127beda2bab" timestamp="2020-11-04T14:17:59.681Z" tests="4" failures="0" errors="0" time="0.377">
+    <testcase name="Respuesta OK" time="0.384" classname="OpenApiCopy"/>
+    <testcase name="Tiempo OK" time="0.384" classname="OpenApiCopy"/>
+    <testcase name="buscar que este presente en cabecera ETag" time="0.384" classname="OpenApiCopy"/>
+    <testcase name="encuentra el string &quot;size&quot;: 89030437" time="0.384" classname="OpenApiCopy"/>
+  </testsuite>
+  <testsuite name="v1 / beers / New Beer" id="ad236ac6-51cb-4f23-a6c7-a02b9070814b" timestamp="2020-11-04T14:17:59.681Z" tests="1" failures="0" errors="0" time="0.398">
+    <testcase name="buscar que este presente en cabecera ETag" time="0.370" classname="OpenApiCopy"/>
+  </testsuite>
+</testsuites>
