@@ -1,3 +1,5 @@
+Windows
+
 sacar newman con html poner al final --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
 
 newman run "https://api.getpostman.com/collections/ea0ff8e3-3c31-436b-a9be-7302424f1853?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --environment "https://api.getpostman.com/environments/d5afe053-af3a-47a9-8ae3-0bc86d160885?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --disable-unicode --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
@@ -5,3 +7,21 @@ newman run "https://api.getpostman.com/collections/ea0ff8e3-3c31-436b-a9be-73024
 newman run "https://api.getpostman.com/collections/ad95edd0-d5b9-474a-a6c0-8b1ab977cf58?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --environment "https://api.getpostman.com/environments/d5afe053-af3a-47a9-8ae3-0bc86d160885?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --disable-unicode --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
 
 newman run "https://api.getpostman.com/collections/cca5d7fb-7090-4077-b2b3-d7da1edcd494?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93"  --disable-unicode --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "newman/report.xml"
+
+Ubuntu
+
+Desde docker >> carpeta persona >> newman/newman el htmlextra y el junit una vez ejecutados
+
+
+Para ejecutar hmtlextra
+
+docker run -t -v /home/gerardo/newman:/etc/newman dannydainton/htmlextra run "https://api.getpostman.com/collections/ce53a6d5-ad5c-4188-bd1e-ebbf3ae0016f?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" -e "https://api.getpostman.com/environments/5ef97956-ca08-40db-8418-6a0b7d09f89b?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" -r junit -r htmlextra
+
+para ejecutar junit
+
+docker run -t -v /home/gerardo/newman:/etc/newman dannydainton/htmlextra run "https://api.getpostman.com/collections/ce53a6d5-ad5c-4188-bd1e-ebbf3ae0016f?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" -e "https://api.getpostman.com/environments/5ef97956-ca08-40db-8418-6a0b7d09f89b?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" -r junit
+
+Desde terminal >> carpetapersona >> Newman el report Newman/newman el htmlextra
+sudo su #entra como root
+
+newman run "https://api.getpostman.com/collections/ce53a6d5-ad5c-4188-bd1e-ebbf3ae0016f?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93"  --environment "https://api.getpostman.com/environments/5ef97956-ca08-40db-8418-6a0b7d09f89b?apikey=PMAK-5f8e0f78ca408c0052a1f6f9-2c91f2057fd52f94ac2710aa2c982d0a93" --disable-unicode --reporters cli,junit,htmlextra --reporter-htmlextra-report --reporter-junit-export "report.xml"
